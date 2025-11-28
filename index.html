@@ -109,7 +109,12 @@
             <div class="form__fieldset">
               <div class="form__field">
                 <label class="form__label" for="name">Nombre *</label>
-                <input class="form__input" type="text" placeholder="Nombre" />
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                />
               </div>
 
               <div class="form__field">
@@ -123,12 +128,13 @@
                   max="8"
                   placeholder="1-8"
                   id="guestsNumber"
+                  required
                 />
               </div>
 
               <div class="form__field">
                 <label class="form__label" for="date">Fecha y hora *</label>
-                <input class="form__input" type="date" id="date" />
+                <input class="form__input" type="date" id="date" required />
               </div>
 
               <div class="form__field">
@@ -140,6 +146,7 @@
                   type="email"
                   id="email"
                   placeholder="email@email.com"
+                  required
                 />
               </div>
             </div>
@@ -148,7 +155,12 @@
             </button>
 
             <label class="form__label form__label-terms" for="terms">
-              <input class="form__checkbox" type="checkbox" name="terms" />
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                name="terms"
+                required
+              />
               Acepto los términos de uso
             </label>
           </form>
