@@ -8,3 +8,5 @@ Planes de mejora del proyecto:
 
 - Agregar un slider para los videos, de manera que si se agregan mas recetas los videos puedan deslizarse horizontalmente.
 - Mejorar el estilo del campo de fecha para las reservaciones y hacer que tenga un estilo mas parecido al de la pagina.
+
+https://ivancvnts.github.io/web_project_coffeeshop/
